@@ -21,8 +21,8 @@ const Home = () => {
 
         <div className='w-3xl bg-fuchsia-400 p-5 pb-10 flex flex-col mx-20  outline outline-8 outline-white outline-offset-4 max-md:mx-8 max-sm:p-3'>
         <h1 className=' text-white font-semibold text-2xl max-sm:text-[14px] max-md:text-xl'>ID : {Math.random()}</h1>
-        <h1 className=' text-white font-semibold text-2xl max-sm:text-[14px] max-md:text-xl'>Name : {user.name}</h1>
-        <h1 className=' text-white font-semibold text-2xl max-sm:text-[14px] max-md:text-xl'>Email : {user.email}</h1>
+        <h1 className=' text-white font-semibold text-2xl max-sm:text-[14px] max-md:text-xl'>Name : {user?.name}</h1>
+        <h1 className=' text-white font-semibold text-2xl max-sm:text-[14px] max-md:text-xl'>Email : {user?.email}</h1>
         </div>
         
         
